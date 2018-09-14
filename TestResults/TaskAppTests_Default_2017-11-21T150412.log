@@ -1,0 +1,61 @@
+﻿VS filter: testpath:TestAssembly:TaskAppTests/TestClass:TaskAppTests.BDD.UserStories2CreateSubTaskFeature/TestMethod:_09ManageSubtasksPopupShouldHaveAReadOnlyFieldOfDescriptionAndId
+Discovering target: Default
+Discovering tests from assembly: C:\projeto bdd\TestAvenueCode-master\TaskAppTests\bin\Debug\TaskAppTests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: TaskAppTests/Default - 
+#1: Default - 
+#3: TaskAppTests - 
+#11: TaskAppTests.BDD.UserStories2CreateSubTaskFeature - 
+#14: _09ManageSubtasksPopupShouldHaveAReadOnlyFieldOfDescriptionAndId - TestAssembly:TaskAppTests/TestClass:TaskAppTests.BDD.UserStories2CreateSubTaskFeature/TestMethod:_09ManageSubtasksPopupShouldHaveAReadOnlyFieldOfDescriptionAndId
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #14 from normal test queue 
+Thread#0:Scheduler: considering testitem #14 for thread 0
+Thread#0:TestItem#14:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#14:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#14:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #14 for thread 0
+Thread#0:Scheduler: Test #14 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for TaskAppTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\bsi90404\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #14/0 is started on thread #0
+Thread#0:TestItem#14:Scheduler: reschedule tests for testitem #14
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #14
+Thread#0:Scheduler: considering testitem #14 for thread 0
+Thread#0:TestItem#14:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#14:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#14:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #14 for thread 0
+Thread#0:Scheduler: Test #14 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #14/0 is finished on thread #0 as Failed within 111,1521141 seconds
+Thread#0: Test #14/1 is started on thread #0
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #14
+Thread#0:Scheduler: considering testitem #14 for thread 0
+Thread#0:TestItem#14:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#14:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#14:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #14 for thread 0
+Thread#0:Scheduler: Test #14 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #14/1 is finished on thread #0 as Failed within 6,5366536 seconds
+Thread#0: Test #14/2 is started on thread #0
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #14/2 is finished on thread #0 as Failed within 316,6006569 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

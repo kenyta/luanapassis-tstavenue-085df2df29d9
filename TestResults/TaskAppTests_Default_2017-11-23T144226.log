@@ -1,0 +1,62 @@
+﻿VS filter: testpath:TestAssembly:TaskAppTests/TestClass:TaskAppTests.BDD.UserStories2CreateSubTaskFeature/ParameterizedTest:_11TheDueDateFieldShouldHaveMMDdYyyyFormat/TestMethod:_11TheDueDateFieldShouldHaveMMDdYyyyFormat(%22subtask+invalid+format+1%22%2c%2226%2f08%2f2017%22%2cnull)
+Discovering target: Default
+Discovering tests from assembly: C:\projeto bdd\TestAvenueCode-master\TaskAppTests\bin\Debug\TaskAppTests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: TaskAppTests/Default - 
+#1: Default - 
+#3: TaskAppTests - 
+#11: TaskAppTests.BDD.UserStories2CreateSubTaskFeature - 
+#19: _11TheDueDateFieldShouldHaveMMDdYyyyFormat - 
+#20: _11TheDueDateFieldShouldHaveMMDdYyyyFormat("subtask invalid format 1","26/08/2017",null) - TestAssembly:TaskAppTests/TestClass:TaskAppTests.BDD.UserStories2CreateSubTaskFeature/ParameterizedTest:_11TheDueDateFieldShouldHaveMMDdYyyyFormat/TestMethod:_11TheDueDateFieldShouldHaveMMDdYyyyFormat(%22subtask+invalid+format+1%22%2c%2226%2f08%2f2017%22%2cnull)
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #20 from normal test queue 
+Thread#0:Scheduler: considering testitem #20 for thread 0
+Thread#0:TestItem#20:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#20:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#20:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #20 for thread 0
+Thread#0:Scheduler: Test #20 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for TaskAppTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\bsi90404\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #20/0 is started on thread #0
+Thread#0:TestItem#20:Scheduler: reschedule tests for testitem #20
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #20
+Thread#0:Scheduler: considering testitem #20 for thread 0
+Thread#0:TestItem#20:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#20:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#20:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #20 for thread 0
+Thread#0:Scheduler: Test #20 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #20/0 is finished on thread #0 as Failed within 0,0830083 seconds
+Thread#0: Test #20/1 is started on thread #0
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #20
+Thread#0:Scheduler: considering testitem #20 for thread 0
+Thread#0:TestItem#20:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#20:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#20:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #20 for thread 0
+Thread#0:Scheduler: Test #20 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #20/1 is finished on thread #0 as Failed within 0,0030003 seconds
+Thread#0: Test #20/2 is started on thread #0
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #20/2 is finished on thread #0 as Failed within 0,0030003 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
